@@ -108,7 +108,15 @@ a {
 }
 
 footer {
-    background-color: var(--header-footer-color);
+    background-color: var(--header-li-footer-color);
+    height: 4.4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer > a > img {
+    width: 1rem;
 }
 
 @media (min-width: 992px) {
